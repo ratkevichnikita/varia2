@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/varia2/static/css/main.75772d0f.css",
+    "main.js": "/varia2/static/js/main.d5ad9eab.js",
+    "static/js/787.6609b868.chunk.js": "/varia2/static/js/787.6609b868.chunk.js",
+    "static/media/Circe-Regular.eot": "/varia2/static/media/Circe-Regular.2b777cd8818a3049d5de.eot",
+    "static/media/Circe-Regular.ttf": "/varia2/static/media/Circe-Regular.f8246c7354e6437a8700.ttf",
+    "static/media/Circe-Regular.woff": "/varia2/static/media/Circe-Regular.54087271dcd105e45fb9.woff",
+    "static/media/Circe-Regular.woff2": "/varia2/static/media/Circe-Regular.a583b9e16908be55984a.woff2",
+    "static/media/LifehackSans-Medium.eot": "/varia2/static/media/LifehackSans-Medium.e92525483734bc0af8bd.eot",
+    "static/media/LifehackSans-Medium.ttf": "/varia2/static/media/LifehackSans-Medium.d0ff9255c30fe29b2e45.ttf",
+    "static/media/LifehackSans-Regular.eot": "/varia2/static/media/LifehackSans-Regular.19887d9716bbbc0b0337.eot",
+    "static/media/LifehackSans-Regular.ttf": "/varia2/static/media/LifehackSans-Regular.c35cd5e30ef11ef2ce7d.ttf",
+    "static/media/LifehackSans-Medium.woff": "/varia2/static/media/LifehackSans-Medium.039cb8c5f6df583a37e3.woff",
+    "static/media/LifehackSans-Regular.woff": "/varia2/static/media/LifehackSans-Regular.567cfa2d57eaa8f98591.woff",
+    "static/media/LifehackSans-Medium.woff2": "/varia2/static/media/LifehackSans-Medium.d9e296c200db46102b3c.woff2",
+    "static/media/LifehackSans-Regular.woff2": "/varia2/static/media/LifehackSans-Regular.8cbb1b657edc764a98b0.woff2",
+    "static/media/section2.jpg": "/varia2/static/media/section2.fdc111a71f38bf04fe8b.jpg",
+    "static/media/main.webp": "/varia2/static/media/main.f188dfb410725e71a405.webp",
+    "static/media/section3.webp": "/varia2/static/media/section3.637d8a89e2609c51c4f0.webp",
+    "index.html": "/varia2/index.html",
+    "main.75772d0f.css.map": "/varia2/static/css/main.75772d0f.css.map",
+    "main.d5ad9eab.js.map": "/varia2/static/js/main.d5ad9eab.js.map",
+    "787.6609b868.chunk.js.map": "/varia2/static/js/787.6609b868.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75772d0f.css",
+    "static/js/main.d5ad9eab.js"
+  ]
+}
