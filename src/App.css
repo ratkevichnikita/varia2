@@ -1,38 +1,301 @@
-.App {
+:root {
+  --mainColor: #F85776;
+  --subcolor: #D7A041;
+  --textColor: #303030;
+  --blueStar: #8BC9E0;
+  --pinkStar: #EAC0C7;
+  --bgColor: #F5F6FC;
+  --whiteColor: #fff;
+
+  --lineHeight: 1.3em;
+}
+
+
+
+@font-face {
+  font-family: 'Circe';
+  src: url('./fonts/Circe-Regular.eot');
+  src: url('./fonts/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/Circe-Regular.woff2') format('woff2'),
+  url('./fonts/Circe-Regular.woff') format('woff'),
+  url('./fonts/Circe-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lifehack';
+  src: url('./fonts/LifehackSans-Regular.eot');
+  src: url('./fonts/LifehackSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/LifehackSans-Regular.woff2') format('woff2'),
+  url('./fonts/LifehackSans-Regular.woff') format('woff'),
+  url('./fonts/LifehackSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lifehack';
+  src: url('./fonts/LifehackSans-Medium.eot');
+  src: url('./fonts/LifehackSans-Medium.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/LifehackSans-Medium.woff2') format('woff2'),
+  url('./fonts/LifehackSans-Medium.woff') format('woff'),
+  url('./fonts/LifehackSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Circe', sans-serif;
+  font-size: 1rem;
+  color: var(--textColor);
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+input, textarea {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: "Lifehack", serif;
+  font-weight: 500;
+}
+
+div, nav, p, span, button, input, a, form, ul, li, textarea, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a, a:hover, a:active, a:focus, button, input, button:hover, button:active, button:focus, input:focus, input:active, textarea, textarea:focus, textarea:active {
+  text-decoration: none;
+  outline: none;
+}
+
+input {
+  outline: none;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.app {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1.1em;
+  font-family: 'Lifehack', sans-serif;
+  color: var(--mainColor);
+}
+
+h2 {
+  color: var(--mainColor);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.1em;
+}
+
+.header {
+  padding: 85px 0 180px;
+  background: url("./images/main.webp") no-repeat center center / cover;
+}
+
+.header-title {
+  max-width: 250px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-subtitle {
+  font-weight: 600;
+  font-size: 35px;
+  color: var(--subcolor);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-desc {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--mainColor);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.section {
+  padding: 60px 0;
+}
+
+.description {
+  text-align: center;
+  background: url("./images/section2.jpg") no-repeat center center / cover;
+}
+
+.description-list {
+  padding-top: 20px;
+}
+
+.description-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.description-item > span {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 12px;
+}
+
+.description-item > p {
+  max-width: 175px;
+  margin: 0 auto 10px;
+  color: var(--mainColor);
+}
+
+.description-item  {
+  font-size: 14px;
+}
+
+.description-item:last-child {
+  max-width: 250px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.ideas {
+  text-align: center;
+  background: url("./images/section3.webp") no-repeat center center / cover;
+}
+
+.ideas-list {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.ideas-list h2 {
+  margin-bottom: 20px;
+}
+
+.ideas-list p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.presents-title  {
+  max-width: 260px;
+  text-align: center;
+  margin: 0 auto;
+}
+.presents-title  h2 {
+  margin-bottom: 20px;
+}
+
+.presents-list {
+  padding-top: 30px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit,minmax(135px,1fr));
+}
+
+.presents-item {
+  padding: 20px 10px;
+  background-color: #F5F6FC;
+  text-align: center;
+  position: relative;
+}
+
+.presents-item.selected:before {
+  content: 'ВЫБРАНА';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  font-size: 30px;
+  letter-spacing: 0.02em;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.presents-item img {
+  height: 140px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.presents-item h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  min-height: 48px;
+  color: #F85776;
 }
+
+.presents-item p,
+.presents-item img {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.presents-item a {
+  font-size: 12px;
+  margin: 0 auto 15px;
+  width: fit-content;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #303030;
+}
+
+.presents-item button {
+  display: block;
+  color: #fff;
+  background-color: #F85776;
+  text-align: center;
+  padding: 8px 0;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 12px;
+}
+
+

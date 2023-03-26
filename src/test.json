@@ -1,0 +1,114 @@
+[
+  {
+    "id": 0,
+    "name": "Demi Star Кухня",
+    "price": "2 869 ₽",
+    "link": "https://www.detmir.ru/product/index/id/566491/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  },
+  {
+    "id": 1,
+    "name": "Коляска для кукол",
+    "price": "1 549 ₽",
+    "link": "https://www.detmir.ru/product/index/id/3786115/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  },
+  {
+    "id": 2,
+    "name": "Play-Doh Печем пиццу",
+    "price": "2 099 ₽",
+    "link": "https://www.detmir.ru/product/index/id/3185936/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  },
+  {
+    "id": 3,
+    "name": "Demi Star Дантист",
+    "price": "2 929 ₽",
+    "link": "https://www.detmir.ru/product/index/id/3969320/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  },
+  {
+    "id": 4,
+    "name": "Пупс Demi Star",
+    "price": "1 669 ₽",
+    "link": "https://www.detmir.ru/product/index/id/3159031/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  },
+  {
+    "id": 5,
+    "name": "Фургончик с мороженым",
+    "price": "1 779 ₽",
+    "link": "https://www.detmir.ru/product/index/id/2994059/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  },
+  {
+    "id": 6,
+    "name": "Кукла-манекен Царевны Аленка",
+    "price": "2 399 ₽",
+    "link": "https://www.detmir.ru/product/index/id/4805575/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  },
+  {
+    "id": 7,
+    "name": "Игровой набор Кондитерская",
+    "price": "1 379 ₽",
+    "link": "https://www.detmir.ru/product/index/id/2624011/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  },
+  {
+    "id": 8,
+    "name": "Конструктор LEGO DUPLO Врач",
+    "price": "1 959 ₽",
+    "link": "https://www.detmir.ru/product/index/id/4658577/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  },
+  {
+    "id": 9,
+    "name": "Игрушка Pets Alive Мопс",
+    "price": "1 999 ₽",
+    "link": "https://www.detmir.ru/product/index/id/3535169/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  },
+  {
+    "id": 10,
+    "name": "Набор игровой Barbie Челси",
+    "price": "2 899 ₽",
+    "link": "https://www.detmir.ru/product/index/id/3257740/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  },
+  {
+    "id": 11,
+    "name": "Набор Demi Star карета",
+    "price": "2 499 ₽",
+    "link": "https://www.detmir.ru/product/index/id/2994058/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  },
+  {
+    "id": 12,
+    "name": "Туалетный столик Demi Star",
+    "price": "4 159 ₽",
+    "link": "https://www.detmir.ru/product/index/id/592171/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  },
+  {
+    "id": 13,
+    "name": "Набор 3 единорога",
+    "price": "999 ₽",
+    "link": "https://www.detmir.ru/product/index/id/3394265/",
+    "isSelected": false,
+    "img": "https://firebasestorage.googleapis.com/v0/b/b-one-4054b.appspot.com/o/presents%2F"
+  }
+]
