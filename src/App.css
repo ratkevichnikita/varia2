@@ -298,4 +298,20 @@ h2 {
   font-size: 12px;
 }
 
+.footer {
+  padding: 90px 0 290px;
+  background: url("./images/footer.webp") no-repeat center center / cover;
+}
+
+.footer-title {
+  text-align: center;
+}
+
+.footer-subtitle {
+  font-size: 18px;
+  line-height: 1.3em;
+  text-align: center;
+  color: #D7A041;
+}
+
 

@@ -29,7 +29,7 @@ function App() {
   // console.log('presents',presents)
   return (
     <div className="app">
-        <div className={"header h-full"}>
+        <div className={"header"}>
           <div className="wrapper">
             <div className="header-title">
             <h1>Varia`s</h1>
@@ -47,7 +47,7 @@ function App() {
               </div>
               <div className="description-item">
                   <span>Мы будем ждать вас по адресу: </span>
-                  <p>ул. Интернациональная, 30, ТЦ Южный “Индиго”</p>
+                  <p>Московский пр-т, 257, РЦ “Арлепарк”</p>
                   <p>05 Апреля, 11:00</p>
               </div>
               <div className="description-item">
@@ -90,6 +90,15 @@ function App() {
             </div>
           </div>
         </div>
+        <div className={"footer"}>
+        <div className="wrapper">
+          <div className="footer-title">
+            <p className={"footer-subtitle"}>Спасибо за внимание :)</p>
+            <h1>До встречи!</h1>
+
+          </div>
+        </div>
+      </div>
         <Modal active={modal} setModal={setModal} selectItem={selectItem} />
     </div>
   );
