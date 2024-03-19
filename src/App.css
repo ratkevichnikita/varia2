@@ -154,7 +154,7 @@ h2 {
 .header-subtitle {
   font-weight: 600;
   font-size: 35px;
-  color: var(--subcolor);
+  color: var(--whiteColor);
 }
 
 .header-desc {
