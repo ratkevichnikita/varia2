@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/varia2/static/css/main.953f8fec.css",
+    "main.css": "/varia2/static/css/main.f5389f8a.css",
     "main.js": "/varia2/static/js/main.439ca083.js",
     "static/js/787.6609b868.chunk.js": "/varia2/static/js/787.6609b868.chunk.js",
     "static/media/Circe-Regular.eot": "/varia2/static/media/Circe-Regular.2b777cd8818a3049d5de.eot",
@@ -17,15 +17,15 @@
     "static/media/LifehackSans-Regular.woff2": "/varia2/static/media/LifehackSans-Regular.8cbb1b657edc764a98b0.woff2",
     "static/media/section2.jpg": "/varia2/static/media/section2.fdc111a71f38bf04fe8b.jpg",
     "static/media/footer.webp": "/varia2/static/media/footer.87de486a3f2fa1d95d8f.webp",
-    "static/media/main.webp": "/varia2/static/media/main.f188dfb410725e71a405.webp",
+    "static/media/main.webp": "/varia2/static/media/main.b2f28e8bdd602e8b33c3.webp",
     "static/media/section3.webp": "/varia2/static/media/section3.637d8a89e2609c51c4f0.webp",
     "index.html": "/varia2/index.html",
-    "main.953f8fec.css.map": "/varia2/static/css/main.953f8fec.css.map",
+    "main.f5389f8a.css.map": "/varia2/static/css/main.f5389f8a.css.map",
     "main.439ca083.js.map": "/varia2/static/js/main.439ca083.js.map",
     "787.6609b868.chunk.js.map": "/varia2/static/js/787.6609b868.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.953f8fec.css",
+    "static/css/main.f5389f8a.css",
     "static/js/main.439ca083.js"
   ]
 }
