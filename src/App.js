@@ -32,9 +32,9 @@ function App() {
         <div className={"header"}>
           <div className="wrapper">
             <div className="header-title">
-            <h1>Varia`s</h1>
-            <p className={"header-subtitle"}>birthday party</p>
-            <p className={"header-desc"}>come to celebrate with us!</p>
+            {/*<h1>Varia`s</h1>*/}
+            {/*<p className={"header-subtitle"}>birthday party</p>*/}
+            {/*<p className={"header-desc"}>come to celebrate with us!</p>*/}
           </div>
           </div>
         </div>
@@ -81,7 +81,7 @@ function App() {
                   <div key={item.id} className={item.isSelected ? `presents-item selected` : `presents-item`}>
                     <h3>{item.name}</h3>
                     <p>{item.price}</p>
-                    <img src={`${item.img}${item.id}.jpeg?alt=media&token=d9d0f69b-db1e-48c2-96a2-e04c5873e994`} alt={item.name} />
+                    <img src={`${item.img}`} alt={item.name} />
                     <a target={"_blank"} href={item.link}>Где купить?</a>
                     <button onClick={() => onModalShow(item.id)}>Оставить за нами</button>
                   </div>
